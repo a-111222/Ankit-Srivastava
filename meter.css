@@ -1,0 +1,482 @@
+body {
+    width: 100%;
+    overflow-x: hidden!important;
+
+}
+.row{
+    margin: 0!important;
+}
+.father{
+    height: 100%;
+    width: 60%;
+ 
+    height: 100%;
+    width: 95%;
+}
+.father:nth-of-type(1){
+    margin: 10% auto 0 auto !important;
+}
+.progress{
+    width: 100%;
+    margin: 60% auto;
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 0;
+    margin-bottom: 7%;
+    box-shadow: 8px 9px 5px #b9b3b3;
+    height: 19px;
+    border-radius: 4px;
+    margin-top: 2%;
+    overflow: unset;
+
+}
+.bg-success{
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    background: #08a208!important;
+    overflow: inherit;
+}
+.bg-info{
+    width: 20%;
+    float: right;
+    margin: 0 auto;
+    background: #08a208!important;
+}
+.date, .type, .progress{
+    float: left;
+
+}
+.type{
+    text-align: center;
+}
+.date{
+    line-height: .8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #56585a; 
+}
+.typei{
+    font-size: 22px;
+    color: #56585a;
+    margin-top: 31%;
+
+}
+.father{
+    margin: 0 auto;
+}
+
+
+
+.icon{
+    text-align: center;
+    background: #1ba268;
+    color: #FFF;
+    z-index: 99999;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+
+    position: absolute;
+    float: right;
+    position: absolute;
+    right: 29%;
+    top: -249%;
+    background: #1ba268;
+}
+.icon::after{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 56px;
+    position: absolute;
+    z-index: -1;
+    color: #1ba268;
+
+    top: -8!important;
+}
+.Ikon{
+    text-align: center;
+    background: #1ba268;
+    color: #FFF;
+    z-index: 99999;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+
+    position: absolute;
+    float: right;
+    position: absolute;
+    right: 29%;
+    top: -249%;
+    background: #1ba268;
+}
+.Ikon::after{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 56px;
+    position: absolute;
+    z-index: -1;
+    color: #1ba268;
+    top: -8!important;
+}
+.iconT{
+    text-align: center;
+    background: #1ba268;
+    color: #FFF;
+    z-index: 99999;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    background: black;
+    position: absolute;
+    float: right;
+    position: absolute;
+    right: 53.5%;
+    top: -250%;
+    background: #1ba268;
+}
+.iconT::after{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 56px;
+    position: absolute;
+    z-index: -1;
+    color: #1ba268;
+    top: -8!important;
+}
+.IkonT {
+    text-align: center;
+    background: #1ba268;
+    color: #FFF;
+    z-index: 99999;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    float: right;
+    position: absolute;
+    right: 10%;
+    top: -249%;
+    background: #1ba268;
+}
+.icon,
+.iconT,
+.IkonT,
+.Ikon{
+    box-shadow: 14px 14px 8px 1px #e1dede;
+
+}
+.IkonT::after{
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 56px;
+    position: absolute;
+    z-index: -1;
+    color: #1ba268;
+    top: -8!important;
+}
+.line{
+    
+    display: block;
+    float: left;
+    height: 2px;
+    background: black;
+    margin-bottom: 10%;
+    margin: 6% auto;
+    margin-bottom: 10%;
+    display: inline-flex;
+    text-align: center!important;
+}
+
+.ruler .cm, .ruler .mm {
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 22px;
+    width: 10%;
+    top: 112%;
+}
+
+.ruler {
+    position: relative;
+    width: 100% !important;
+    margin: -40px -61% 10% 15% !important;
+    height: 14px!important;
+   }
+   .ruler .cm,
+   .ruler .mm {
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 14px;
+    width: 10%;
+   }
+   .ruler {
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    height: 14px;
+   }
+   .ruler .cm,
+   .ruler .mm {
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 14px;
+    width: 10%;
+  
+   }
+   .ruler .cm:after {
+    position: absolute;
+    bottom: -58px;
+    font: 11px/1 sans-serif;
+   
+    font-size: 16px;
+    font-weight: 700;
+    color: #737373;
+   }
+   .ruler .mm {
+    height: 5px;
+   }
+   .ruler .mm:nth-of-type(5) {
+    height: 10px;
+   }
+   .ruler .cm:nth-of-type(1) {
+    left: 0%;
+   }
+   .ruler .cm:nth-of-type(1):after {
+    content: "8 AM";
+   }
+   .ruler .cm:nth-of-type(2) {
+    left: 10%;
+   }
+   .ruler .cm:nth-of-type(2):after {
+    content: " 10 AM";
+   }
+   .ruler .cm:nth-of-type(3) {
+    left: 20%;
+   }
+   .ruler .cm:nth-of-type(3):after {
+    content: "12 PM";
+   }
+   .ruler .cm:nth-of-type(4) {
+    left: 30%;
+   }
+   .ruler .cm:nth-of-type(4):after {
+    content: "2 PM";
+   }
+   .ruler .cm:nth-of-type(5) {
+    left: 40%;
+   }
+   .ruler .cm:nth-of-type(5):after {
+    content: "4 PM ";
+   }
+   .ruler .cm:nth-of-type(6) {
+    left: 50%;
+   }
+   .ruler .cm:nth-of-type(6):after {
+    content: "6 PM";
+   }
+   .ruler .cm:nth-of-type(7) {
+    left: 60%;
+   }
+   .ruler .cm:nth-of-type(7):after {
+    content: "8 PM ";
+   }
+   .ruler .cm:nth-of-type(8) {
+    left: 70%;
+   }
+   .ruler .cm:nth-of-type(8):after {
+    content: "10 PM";
+   }
+   .ruler .cm:nth-of-type(9) {
+    left: 80%;
+   }
+   .ruler .cm:nth-of-type(9):after {
+    content: "8";
+   }
+   .ruler .cm:nth-of-type(10) {
+    left: 90%;
+   }
+   .ruler .cm:nth-of-type(10):after {
+    content: "9";
+   }
+   .ruler .cm:nth-of-type(11) {
+    left: 100%;
+   }
+   .ruler .cm:nth-of-type(11):after {
+    content: "10";
+   }
+   .ruler .mm:nth-of-type(1) {
+    left: 10%;
+   }
+   .ruler .mm:nth-of-type(2) {
+    left: 20%;
+   }
+   .ruler .mm:nth-of-type(3) {
+    left: 30%;
+   }
+   .ruler .mm:nth-of-type(4) {
+    left: 40%;
+   }
+   .ruler .mm:nth-of-type(5) {
+    left: 50%;
+   }
+   .ruler .mm:nth-of-type(6) {
+    left: 60%;
+   }
+   .ruler .mm:nth-of-type(7) {
+    left: 70%;
+   }
+   .ruler .mm:nth-of-type(8) {
+    left: 80%;
+   }
+   .ruler .mm:nth-of-type(9) {
+    left: 90%;
+   }
+   .ruler .mm:nth-of-type(10) {
+    left: 100%;
+   }
+   #mentionme{  
+     text-align:center;
+     margin-top:10%;
+   }}
+   .ruler .cm, .ruler .mm {
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 17px;
+    width: 11%;
+    top: 116%;
+}
+.under{
+    display: inherit;
+    margin-bottom: 10%;
+    margin: -65px auto 7% auto;
+}
+.ruler .cm{
+    padding-right: 10%;
+}
+
+
+/*start media*/
+/********************************************/
+
+
+/*start ruler*/
+@media (min-width:320px) and (max-width:500px){
+    .icon,
+     .iconT,
+      .Ikon,
+       .IkonT{
+        height: 21px!important;
+        width: 57px!important;
+        top: -175%!important;
+
+    }
+    .icon::after,
+    .Ikon::after,
+    .iconT::after,
+    .IkonT::after{
+        font-size: 43px!important;
+    }
+    .ruler .cm:after {
+        right: 25px!important;
+     
+    }
+}
+
+@media (max-width: 576px) { 
+    .line{
+        display: block;
+        height: 53px;
+        margin-top: 10%;
+        margin-bottom: 14%;
+        background: none;
+    }
+    .ruler .cm:after {
+        position: absolute;
+        bottom: -44px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #737373;
+        right: 39px;}
+        .date{
+            clear: both;
+            float: left;
+            margin-bottom: 10%;
+        }
+        .icon{
+            height: 30px;
+            width: 73px;
+            position: absolute;
+            left: 4%;
+            top: -231%;
+        }
+        .iconT, .Ikon, .IkonT{
+            height: 30px;
+            width: 73px;
+        }
+        .progress-bak{
+            width: 30%!important;
+            margin-right: 31%;
+        } 
+
+}
+
+@media (min-width: 576px) { 
+    .ruler .cm:after {
+        position: absolute;
+        bottom: -41px;
+        font: 11px/1 sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #737373;
+        font-size: 17px;
+        left: -20px;
+    }
+    .line{
+        
+        margin-bottom: 20%; 
+         }
+         .icon{
+            height: 30px;
+            width: 73px;
+            position: absolute;
+            left: 4%;
+            top: -231%;
+        }
+        .iconT, .Ikon, .IkonT{
+            height: 30px;
+            width: 73px;
+        }
+        .date{
+            margin-bottom: 10%;
+
+        }
+        .progress-bak{
+            width: 27%!important;
+            margin-right: 31%;
+        } 
+ }
+ @media (min-width:720px) and (max-width:768px){
+     .line{
+        
+    margin-bottom: 20%; 
+     }
+ }
+ @media (min-width:768px){
+     .icon{
+        left: 8%;
+     }
+     .IkonT{
+        right: 12%;
+        top: -249%;
+     }
+   .progress-bak {
+        width: 26%!important;
+        margin-right: 30%;
+    
+     }
+ }
